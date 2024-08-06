@@ -70,7 +70,7 @@
         });
 
         document.addEventListener('mousemove', (event) => {
-            const logo = document.querySelector('solaris');
+            const logo = document.querySelector('.logo');
             const { clientX: mouseX, clientY: mouseY } = event;
             const { offsetWidth: width, offsetHeight: height } = logo;
             const { left, top } = logo.getBoundingClientRect();
